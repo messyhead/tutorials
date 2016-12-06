@@ -12,13 +12,15 @@ Orange color #e67e22
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1}
@@ -39,13 +41,9 @@ html {
     margin: 0 auto;
 }
 
-section {
-    padding: 80px 0;
-}
+section { padding: 80px 0; }
 
-.box {
-    padding: 1%;
-}
+.box { padding: 1%; }
 
 /* -------- headings --------*/
 
@@ -169,14 +167,10 @@ input[type=submit] {
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
-input[type=submit]:active {
-    background-color: #cf6d17;
-}
+input[type=submit]:active { background-color: #cf6d17; }
 
 .btn-full:hover,
-.btn-full:active {
-    border: 1px solid #cf6d17;
-}
+.btn-full:active { border: 1px solid #cf6d17; }
 
 .btn-ghost:hover,
 .btn-ghost:active {
@@ -234,24 +228,18 @@ header {
 }
 
 .main-nav li a:hover,
-.main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
-}
+.main-nav li a:active { border-bottom: 2px solid #e67e22; }
 
 /* ----------------------------------------------------------- */
 /* features */
 /* ----------------------------------------------------------- */
-.section-features .long-copy {
-    margin-bottom: 40px;
-}
+.section-features .long-copy { margin-bottom: 40px; }
 
 /* ----------------------------------------------------------- */
 /* meals */
 /* ----------------------------------------------------------- */
 
-.section-meals {
-    padding: 0;
-}
+.section-meals { padding: 0; }
 
 .meals-showcase {
     list-style: none;
@@ -288,9 +276,7 @@ header {
 /* how it works */
 /* ----------------------------------------------------------- */
 
-.section-steps {
-    background-color: #f4f4f4;
-}
+.section-steps { background-color: #f4f4f4; }
 
 .steps-box:first-child {
     text-align: right;
@@ -303,17 +289,11 @@ header {
     margin-top: 70px;
 }
 
-.app-screen {
-    width: 40%;
-}
+.app-screen { width: 40%; }
 
-.works-step {
-    margin-bottom: 50px;
-}
+.works-step { margin-bottom: 50px; }
 
-.works-step:last-of-type {
-    margin-bottom: 80px;
-}
+.works-step:last-of-type { margin-bottom: 80px; }
 
 .works-step div {
     color: #e67e22;
@@ -330,9 +310,7 @@ header {
 }
 
 .btn-app:link,
-.btn-app:visited {
-    border: 0;
-}
+.btn-app:visited { border: 0; }
 
 .btn-app img {
     height: 50px;
@@ -350,9 +328,7 @@ header {
     margin-bottom: 15px;    
 }
 
-.city-feature {
-    margin-bottom: 5px;
-}
+.city-feature { margin-bottom: 5px; }
 
 /* ----------------------------------------------------------- */
 /* testimonials */
@@ -399,9 +375,7 @@ cite img {
 /* sign-up */
 /* ----------------------------------------------------------- */
 
-.section-plans {
-    background-color: #f4f4f4;
-}
+.section-plans { background-color: #f4f4f4; }
 
 .plan-box {
     background-color: #fff;
@@ -439,17 +413,11 @@ cite img {
     font-weight: 300;
 }
 
-.price-plan-meal {
-    font-size: 80%;
-}
+.price-plan-meal { font-size: 80%; }
 
-.plan-box ul {
-    list-style: none;
-}
+.plan-box ul { list-style: none; }
 
-.plan-box ul li {
-    padding: 5px 0;
-}
+.plan-box ul li { padding: 5px 0; }
 
 /* ----------------------------------------------------------- */
 /* contact-form */
@@ -470,13 +438,9 @@ textarea {
     border: 1px solid #ccc;
 }
 
-textarea {
-    height: 100px;
-}
+textarea { height: 100px; }
 
-input[type=checkbox] {
-    margin: 10px 5px 10px 0;
-}
+input[type=checkbox] { margin: 10px 5px 10px 0; }
 
 *:focus {outline: none;}
 
@@ -507,9 +471,7 @@ footer {
 }
 
 .footer-nav li:last-child,
-.social-links li:last-child {
-    margin: 0;
-}
+.social-links li:last-child { margin: 0; }
 
 .footer-nav li a:link,
 .footer-nav li a:visited,
@@ -522,37 +484,23 @@ footer {
 }
 
 .footer-nav li a:hover,
-.footer-nav li a:active {
-    color: #ddd;
-}
+.footer-nav li a:active { color: #ddd; }
 
 .social-links li a:link,
-.social-links li a:visited {
-    font-size: 160%;
-}
+.social-links li a:visited { font-size: 160%; }
 
 .ion-social-facebook,
 .ion-social-twitter,
 .ion-social-googleplus,
-.ion-social-instagram {
-    transition: color 0.2s;
-}
+.ion-social-instagram { transition: color 0.2s; }
 
-.ion-social-facebook:hover {
-    color: #3b5998;
-}
+.ion-social-facebook:hover { color: #3b5998; }
 
-.ion-social-twitter:hover {
-    color: #55acee;
-}
+.ion-social-twitter:hover { color: #55acee; }
 
-.ion-social-googleplus:hover {
-    color: #dd4b39;
-}
+.ion-social-googleplus:hover { color: #dd4b39; }
 
-.ion-social-instagram:hover {
-    color: #125688;
-}
+.ion-social-instagram:hover { color: #125688; }
 
 footer p {
     color: #888;
