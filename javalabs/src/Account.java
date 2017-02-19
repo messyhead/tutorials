@@ -22,7 +22,15 @@ public class Account {
 
 
     public void addInterest() {
-        balance = balance + ((balance/100)*10);
+        balance = balance + ((balance / 100) * 10);
     }
 
+    public Account(double balance, String name) {
+        this.balance = balance;
+        this.name = name;
+    }
+
+    public Account() {
+        this(50,"Tony McElroy");
+    }
 }
