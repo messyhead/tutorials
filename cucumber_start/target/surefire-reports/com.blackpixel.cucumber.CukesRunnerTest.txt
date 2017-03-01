@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.blackpixel.cucumber.CukesRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.56 sec
